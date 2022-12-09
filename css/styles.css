@@ -52,7 +52,6 @@ img {
 
 /* ------- С Т У Д І Я ------- */
 body {
-    max-width: 1600px;
     margin: auto;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -154,8 +153,11 @@ body {
 /* ------- M A I N ------- */
 /*hero*/
 .hero-section {
+    margin: 0 auto;
     padding-bottom: 94px;
     padding: 200px 0;
+
+    max-width: 1600px;
     text-align: center;
 
     background-color: var(--blocks-background-color);
